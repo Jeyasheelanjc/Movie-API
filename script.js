@@ -58,6 +58,10 @@ form.addEventListener('submit', (e) => {
         getMovies(SEARCHAPI + searchTerm)
         search.value="" 
     }
+         if( searchTerm===""){
+        alert("Enter the Correct Movie Name") 
+    }
+    console.log(searchTerm);
 })
 
 
