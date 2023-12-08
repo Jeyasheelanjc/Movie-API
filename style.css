@@ -84,6 +84,7 @@ h3{
     font-family: inherit;
     color: white;
     cursor: pointer;
+    width: 100%;
 }
 .search::placeholder{
     color: White;
